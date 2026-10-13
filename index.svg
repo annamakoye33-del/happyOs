@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" role="document" aria-labelledby="title description">
   <title id="title">Happy OS — Public desktop</title>
-  <desc id="description">Open the public Happy OS desktop. A direct link is available if embedding is unavailable.</desc>
+  <desc id="description">The public Happy OS desktop, displayed edge to edge without a launcher bar.</desc>
   <foreignObject width="100%" height="100%">
     <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
       <head>
@@ -9,22 +9,10 @@
         <title>Happy OS</title>
         <style>
           html, body { width: 100%; height: 100%; margin: 0; overflow: hidden; background: #11131b; color: #f5f5fa; font-family: system-ui, sans-serif; }
-          body { display: flex; flex-direction: column; }
-          nav { box-sizing: border-box; min-height: 38px; display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 6px 14px; background: #171a25; border-bottom: 1px solid #ffffff20; font-size: 12px; }
-          nav span { display: flex; align-items: center; gap: 8px; }
-          nav i { width: 6px; height: 6px; border-radius: 50%; background: #6fe2a3; }
-          a { color: #c9d6ff; text-decoration: none; padding: 4px; white-space: nowrap; }
-          a:hover { color: white; text-decoration: underline; }
-          a:focus-visible { outline: 2px solid #a9bfff; outline-offset: 2px; border-radius: 4px; }
-          iframe { display: block; flex: 1; width: 100%; min-height: 0; border: 0; background: #11131b; }
-          @media (pointer: coarse) { nav { min-height: 48px; } a { padding: 10px 4px; } }
+          iframe { display: block; width: 100%; height: 100%; border: 0; background: #11131b; }
         </style>
       </head>
       <body>
-        <nav aria-label="Happy OS launcher">
-          <span><i aria-hidden="true"></i>Happy OS</span>
-          <a href="https://ember-live-desktop.annamakoye33.chatgpt.site/" target="_blank" rel="noopener noreferrer">Open directly ↗</a>
-        </nav>
         <iframe
           title="Happy OS public desktop"
           src="https://ember-live-desktop.annamakoye33.chatgpt.site/"
@@ -36,3 +24,4 @@
     </html>
   </foreignObject>
 </svg>
+
